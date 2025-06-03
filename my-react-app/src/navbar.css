@@ -1,0 +1,32 @@
+.NavBar{
+    width: 100%;
+    padding: 2% 10%;
+    background-color: #101B37;
+    display: grid;
+    column-gap: 10%;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-rows: 7vh;
+
+}
+
+.NavBar h3{
+    color: white;
+}
+
+.NavBar.logo{
+    height: 100%;
+    grid-column: 2/2;
+}
+
+.NavBar .logo img{
+    height: 100%;
+}
+
+
+.NavBar .login{
+    grid-column: 3/3;
+}
+
+.NavBar .busca{
+    background-color: aliceblue;
+}

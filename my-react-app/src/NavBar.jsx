@@ -1,0 +1,23 @@
+import { useState } from 'react'
+import  './navbar.css'
+import CodelabLogo from './assets/logo.png'
+
+
+function NavBar(){
+    return(
+        <div className='NavBar'>
+            <div className='logo navbar-brand'>
+                <img src={CodelabLogo} alt="Logo do codLab" className='d-inline-block align-text-top'/>
+                <h3 className='d-inline-block align-text-top'>Dev.learn()</h3>
+            </div>
+            <div className='busca'>
+                Barra de Pequisa'
+            </div>
+            <div className='login'>
+                <a href='#' >Login</a>
+            </div>
+        </div>
+    );
+}
+
+export default NavBar;
