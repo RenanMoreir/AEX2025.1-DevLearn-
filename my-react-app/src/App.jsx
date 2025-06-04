@@ -2,13 +2,23 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Footer from './Footer.jsx'
+import CardCurso from './CardCurso.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
-  return (
-    <>
+  return(
+    <div>
+      <div className='cursoPopular'>
+        <div className='titulo'>
+          <h1 style={{color:"#5EDFFF"}}>Cursos</h1>
+          <h1 style={{color:"#E41376"}}>Mais Populares</h1>
+        </div>
+        <div className='cursos'>
+          <CardCurso />
+          <CardCurso />
+        </div>
+      </div>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -29,8 +39,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;

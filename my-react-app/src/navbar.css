@@ -1,6 +1,6 @@
 .NavBar{
     width: 100%;
-    padding: 2% 10%;
+    padding: 1% 10% 1% 10%;
     background-color: #101B37;
     display: grid;
     column-gap: 10%;
@@ -11,6 +11,10 @@
 
 .NavBar h3{
     color: white;
+    display: inline;
+    font-size: 3vh;
+    margin-top: 5%;
+    margin-left: 15%;
 }
 
 .NavBar.logo{
@@ -27,6 +31,16 @@
     grid-column: 3/3;
 }
 
-.NavBar .busca{
-    background-color: aliceblue;
+
+.NavBar .login{
+    background-color: #E41376;
+    border-radius: 12px;
+}
+.NavBar .login:hover{
+    background-color: #8a0d47;
+}
+
+.NavBar .login{
+    color: white;
+    text-decoration: inherit;
 }
