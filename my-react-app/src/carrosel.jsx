@@ -343,14 +343,14 @@ const StyledCarousel = styled.div`
 
   .left-arrow-button,
   .right-arrow-button {
-    position: inline;
+    position: absolute;
     z-index: 1;
     top: 50%;
     transform: translateY(-50%);
     width: 48px;
     height: 48px;
     border-radius: 24px;
-    background-color: white;
+    background-color: #101B37;
     border: 1px solid #ddd;
     cursor: pointer;
     display: flex;
@@ -364,7 +364,7 @@ const StyledCarousel = styled.div`
 
   .left-arrow-button:hover,
   .right-arrow-button:hover {
-    background-color: #ddd;
+    background-color: #E41376;
   }
 
   .left-arrow-button:focus,
@@ -386,7 +386,7 @@ const StyledCarousel = styled.div`
     height: 0;
     border-top: 7.5px solid transparent;
     border-bottom: 7.5px solid transparent;
-    border-right: 10px solid #484848;
+    border-right: 10px solid white;
     border-left: 5px solid transparent;
     transform: translateX(-25%);
   }
@@ -397,7 +397,7 @@ const StyledCarousel = styled.div`
     height: 0;
     border-top: 7.5px solid transparent;
     border-bottom: 7.5px solid transparent;
-    border-left: 10px solid #484848;
+    border-left: 10px solid white;
     border-right: 5px solid transparent;
     transform: translateX(25%);
   }
@@ -445,7 +445,7 @@ const StyledCarousel = styled.div`
   .indicator-container > .dots-active {
     width: 12px;
     height: 6px;
-    background-color: #00000096;
+    background-color: #E41376;
     flex-shrink: 0;
     flex-grow: 1;
   }
@@ -453,7 +453,7 @@ const StyledCarousel = styled.div`
   .indicator-container > .dots-close {
     width: 6px;
     height: 6px;
-    background-color: #00000033;
+    background-color:rgba(228, 19, 116, 0.43);
     flex-shrink: 0;
     flex-grow: 1;
   }
@@ -463,7 +463,7 @@ const StyledCarousel = styled.div`
     height: 4px;
     margin-top: 1px;
     margin-bottom: 1px;
-    background-color: #00000033;
+    background-color: rgba(228, 19, 116, 0.43);
     flex-shrink: 0;
     flex-grow: 1;
   }

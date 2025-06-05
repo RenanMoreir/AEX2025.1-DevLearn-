@@ -2,17 +2,12 @@ import Carousel from "./carrosel";
 import CardCurso from './CardCurso.jsx'
 
 
-//import "./styles.css";
-
-const item = [<CardCurso/>, <CardCurso/>, <CardCurso/>, <CardCurso/>, <CardCurso/>];
-//const item = ["renan", "matheus", "pedro"];
-
-
-export default function ImplementaCarrosel() {
+export default function ImplementaCarrosel({visivel, item, nItens}) {
   return (
     <div className="carrosel">
-      <Carousel visibleItemsCount={3} withIndicator isInfinite>
-        {[0, 1, 2, 3, 4].map((i, k) => (
+      <Carousel visibleItemsCount={visivel} withIndicator isInfinite>
+        {
+        nItens.map((i, k) => (
           <div style={{margin: '5px'}} key={k}>
             {item[i]}
           </div>
