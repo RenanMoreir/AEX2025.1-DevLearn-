@@ -10,9 +10,12 @@
 }
 
 .cursos{
-  width: 100%;
-  display: flex;
+  width: 70%;
 }
+
+/*teoricamente é o carrosel*/
+
+
 
 /*#root {
   max-width: 1280px;

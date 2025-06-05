@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import CardCurso from './CardCurso.jsx'
+import ImplementaCarrosel from './ImplementaCarrosel.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,9 +15,8 @@ function App() {
           <h1 style={{color:"#5EDFFF"}}>Cursos</h1>
           <h1 style={{color:"#E41376"}}>Mais Populares</h1>
         </div>
-        <div className='cursos'>
-          <CardCurso />
-          <CardCurso />
+        <div className='cursos  '>
+            <ImplementaCarrosel />
         </div>
       </div>
       <div>
