@@ -1,0 +1,24 @@
+.banner{
+    height: 60vh;
+    background-color: aliceblue;
+    background-image: url("./assets/bannerimagem.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.banner a{
+    color: white;
+    background-color: #E41376;
+}
+
+.banner a:hover{
+    background-color: #8a0d47;
+}
+
+.banner .conteudo{
+    padding: 15vh;
+    padding-left: 40vh;
+    padding-right: 40vh;
+}

@@ -4,15 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import CardCurso from './CardCurso.jsx'
 import ImplementaCarrosel from './ImplementaCarrosel.jsx'
+import Banner from './Banner.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return(
     <div>
-      <div>
-        
-      </div>
+      <Banner />
       <div className='cursoPopular'>
         <div className='titulo'>
           <h1 style={{color:"#5EDFFF"}}>Cursos</h1>
