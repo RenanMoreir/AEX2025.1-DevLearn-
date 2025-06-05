@@ -14,10 +14,32 @@
   background-repeat:repeat;
   background-image: radial-gradient(white 2px, transparent 1px);
   background-size: 20px 20px;
-
+}
+.container{
+  background-color: white;
+}
+.menssagem{
+  margin: 15vh;
+  margin-left: 35vh;
+  margin-right: 35vh;
+  padding: 10vh;
+  padding-bottom: 5vh ;
+  background-color: #2a2a7c48;
+  text-align: center;
 }
 
-/*teoricamente é o carrosel*/
+.menssagem a{
+  margin-top: 5vh;
+    background-color: #E41376;
+}
+.menssagem a:hover{
+    background-color: #8a0d47;
+}
+
+.menssagem a{
+    color: white;
+}
+
 
 
 
