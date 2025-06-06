@@ -1,13 +1,17 @@
 .banner{
     height: 60vh;
     background-color: aliceblue;
-    background-image: url("./assets/bannerimagem.png");
+    background-image: url("../assets/bannerimagem.png");
+    backdrop-filter: url("../assets/bannerimagem.png") blur(10px);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
 }
-
+.conteudo{
+    background-color: #75747448;
+    height: auto;
+}
 .banner a{
     color: white;
     background-color: #E41376;
@@ -19,6 +23,7 @@
 
 .banner .conteudo{
     padding: 15vh;
+    padding-bottom: 5vh;
     padding-left: 40vh;
     padding-right: 40vh;
 }

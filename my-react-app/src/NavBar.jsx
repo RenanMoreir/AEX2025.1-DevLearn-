@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import  './navbar.css'
+import  './style/navbar.css'
 import CodelabLogo from './assets/logo.png'
 import Busca from './pesquisa'
 import Pesquisa from './pesquisa';

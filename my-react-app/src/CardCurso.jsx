@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './cardcurso.css'
+import './style/cardcurso.css'
 import imagem from "./assets/logo.png"
 
 function CardCurso(){

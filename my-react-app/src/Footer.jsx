@@ -3,7 +3,7 @@ import CodelabLogo from './assets/logo.png'
 import InstagranLogo from './assets/instagram.png'
 import YoutubeLogo from './assets/youtube.png'
 import LinkedinLogo from './assets/linkedin.png'
-import './footer.css'
+import './style/footer.css'
 
 
 function Footer(){

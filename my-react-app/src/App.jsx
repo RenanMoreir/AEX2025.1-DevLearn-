@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './style/App.css'
 import CardCurso from './CardCurso.jsx'
 import ImplementaCarrosel from './ImplementaCarrosel.jsx'
 import Banner from './Banner.jsx'
@@ -18,7 +16,7 @@ function App() {
           <h1 style={{color:"#E41376"}}>Mais Populares</h1>
         </div>
         <div className='cursos'>
-            <ImplementaCarrosel visivel={2} nItens={[0, 1, 2, 3, 4]} item={[<CardCurso/>, <CardCurso/>, <CardCurso/>, <CardCurso/>, <CardCurso/>]} />
+            <ImplementaCarrosel visivel={3} nItens={[0, 1, 2, 3, 4]} item={[<CardCurso/>, <CardCurso/>, <CardCurso/>, <CardCurso/>, <CardCurso/>]} />
         </div>
       </div>
       <div className='conteiner'>
