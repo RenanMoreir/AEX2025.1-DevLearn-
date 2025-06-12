@@ -6,7 +6,6 @@ import Footer from './Footer.jsx'
 import NavBar from './NavBar.jsx'
 import Login from './Login.jsx'
 
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <NavBar />

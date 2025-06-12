@@ -1,5 +1,8 @@
 import styled from "styled-components";
 import codeLabLogo from "./assets/logo.png"
+import imagemFundo from "./assets/fundoDesk.png"
+import fundoMobile from "./assets/signinmobile.png"
+//não coloquei imagem de fundo como está no figma pois daria muito trabalho
 
 export default function Exemplo(){
     return (
@@ -16,29 +19,29 @@ export default function Exemplo(){
                     <p className="instruction-text">Please fill your detail to access your account.</p>
 
                     <form className="login-form">
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <div class="input-wrapper">
-                            <input type="email" id="email" name="email" value="abcde.fgh@example.com" placeholder="Enter your email"></input>
-                            <i class="fas fa-times-circle clear-icon"></i>
+                    <div className="form-group">
+                        <label htmlFor="email">Email</label>
+                        <div className="input-wrapper">
+                            <input type="email" id="email" name="email" defaultValue="abcde.fgh@example.com" placeholder="Enter your email"></input>
+                            <i className="fas fa-times-circle clear-icon"></i>
                         </div>
                     </div>
 
-                    <div class="form-group">
-                        <label for="password">Password</label>
-                        <div class="input-wrapper">
-                            <input type="password" id="password" name="password" value="••••••••" placeholder="Enter your password"></input>
-                            <i class="fas fa-eye-slash toggle-password"></i>
+                    <div className="form-group">
+                        <label htmlFor="password">Password</label>
+                        <div className="input-wrapper">
+                            <input type="password" id="password" name="password" defaultValue="••••••••" placeholder="Enter your password"></input>
+                            <i className="fas fa-eye-slash toggle-password"></i>
                         </div>
                     </div>
 
-                    <a href="#" class="forgot-password">Forgot Password?</a>
+                    <a href="#" className="forgot-password">Forgot Password?</a>
 
-                    <button type="submit" class="sign-in-button">Sign In</button>
+                    <button type="submit" className="sign-in-button">Sign In</button>
                     </form>
 
                     <p className="signup-text">Don't you have an account? 
-                        <a className="signup-link">Sign up</a>
+                        <a className="signup-link"> Sign up</a>
                     </p>
                 </LoginFormCont>
             </RightPanel>
@@ -47,53 +50,68 @@ export default function Exemplo(){
 }
 
 const Container = styled.div`
-    margin: 0;
-    padding: 0;
-
+    margin: 30px 0;
     display: flex;
     width: 100%;
-    max-width: 1200px;
-    height: 700px;
-    border-radius: 20px; 
-    overflow: hidden;
+    height: 100vh;
+    overflow-x: hidden;
 
-    background-image: url(./assets/signindesktop.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
     background-color: #0F1D35;
 
-    @media(max-width: 992px) {
-        flex-direction: colmn;
+    @media(max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         height: auto;
         max-width: 100%;
         border-radius: 0;
         box-shadow: none;
     }
+
+    @media(max-width: 576px) {
+        padding: 30px 0;
+    }
 `
-const LeftPanel = style.div`
+const LeftPanel = styled.div`
     flex: 1;
     background-color: transparent; 
     display: flex;
+    width: 50%;
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: 2;
 
     .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 50px;  
         text-align: center;
-        color: #fff;
     }
+
     .code-logo {
-        width: 100px;
+        width: 350px;
         height: auto;
         margin-bottom: 20px;
         filter: brightness(0) invert(1) drop-shadow(0 0 0 0 #EC026B);
     }
+
+    @media(max-width: 768px) {
+
+        .code-logo {
+            width: 190px;
+        }
+
+    }
 `
 const RightPanel = styled.div`
+    padding: 40px 20px;
+    width: 100%;
+    overflow-x: hidden;
     flex: 1;
-    background-color: transparent;
+    background-color: #f0f2f5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,8 +119,8 @@ const RightPanel = styled.div`
     z-index: 1;
 `
 const LoginFormCont = styled.div`
-    max-width: 380px;
-    padding: 40px;
+    max-width: 580px;
+    padding: 80px 50px;
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -125,14 +143,17 @@ const LoginFormCont = styled.div`
     }
 
     .form-group {
+        width: 100%;
         margin-bottom: 25px;
 
         label {
+
             display: block;
             font-size: 14px;
             color: #333333;
             font-weight: 500;
             margin-bottom: 8px;
+
         }
 
         .input-wrapper {
@@ -194,9 +215,10 @@ const LoginFormCont = styled.div`
         cursor: pointer;
         transition: background-color 0.3s ease;
 
-        &::hover {
+        &:hover {
             background-color: #d1005a;
         }
+
     }
 
     .signup-text {
