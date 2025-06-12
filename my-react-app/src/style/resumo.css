@@ -1,0 +1,42 @@
+.resumo{
+    margin: 0vh 10vh;
+    margin-bottom: 5vh;
+}
+.card{
+    background-color: #D9D9D9;
+    border-radius: 1em;
+    padding: 5vh;
+}
+.card > .btn{
+    background-color: #E41376;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: white;
+}
+
+.card .btn:hover{
+    background-color: #8a0d47;
+}
+
+.card > img{
+    border-radius: 1em;
+    width: 50vh;
+}
+.conteudos{
+    margin-top: 5vh;
+}
+
+.conteudos img{
+    width: 4vh;
+}
+.conteudos p{
+    margin-left: 5vh;
+    margin-bottom: 0px;
+}
+.conteudos hr{
+    width: 100%;
+}
+.conteudos div{
+    display: flex;
+    flex-wrap: wrap;
+}

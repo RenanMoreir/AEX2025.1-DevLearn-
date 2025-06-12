@@ -1,0 +1,14 @@
+.conteudo{
+    margin: 10vh;
+    display: grid;
+    grid-template-columns: 2fr  1fr;
+
+}
+
+.Descricao{
+    grid-column: 1 / 1;
+}
+
+.Resumo{
+    grid-area: 2 / span 2;
+}

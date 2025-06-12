@@ -24,7 +24,7 @@ function CardCurso(){
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in tortor mi. Phasellus sed ipsum in.</p>
         </div>
         <div className='vermais'>
-            <a href='#' className='mais btn'>Ver Mais</a>
+            <a href='./src/Curso.html' className='mais btn'>Ver Mais</a>
         </div>
 
     </div>

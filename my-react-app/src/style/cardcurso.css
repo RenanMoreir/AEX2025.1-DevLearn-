@@ -22,13 +22,12 @@
 }
 
 .tags .tagitem{
-    height: 50%;
-    margin: 2%;
-    padding: 0% 3% 0% 3%;
+    margin: 0% 2% 2% 0%;
     border-radius: 2em;
 }
 
 .tags h4{
+    margin: 1vh;
     font-size: 2vh;
 }
 
@@ -39,7 +38,7 @@
 }
 .tags .javascript{
     color: white;
-    background-color: #5EDFFF;
+    background-color: #28a4c4;
 }
 .tags .full-stack{
     color: white;
