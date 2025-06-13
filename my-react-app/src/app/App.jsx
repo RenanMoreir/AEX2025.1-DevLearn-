@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './style/App.css'
+import '../style/App.css'
 import CardCurso from './CardCurso.jsx'
 import ImplementaCarrosel from './ImplementaCarrosel.jsx'
 import Banner from './Banner.jsx'

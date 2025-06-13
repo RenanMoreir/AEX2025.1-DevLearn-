@@ -1,5 +1,5 @@
 import { StrictMode } from 'react'
-import './style/resumo.css'
+import '../style/resumo.css'
 
 function Resumo(){
     return(

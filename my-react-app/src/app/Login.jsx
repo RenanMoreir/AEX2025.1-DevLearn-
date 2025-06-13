@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import codeLabLogo from "./assets/logo.png"
-import imagemFundo from "./assets/fundoDesk.png"
-import fundoMobile from "./assets/signinmobile.png"
+import codeLabLogo from "../assets/logo.png"
+import imagemFundo from "../assets/fundoDesk.png"
+import fundoMobile from "../assets/signinmobile.png"
 //não coloquei imagem de fundo como está no figma pois daria muito trabalho
 
 export default function Exemplo(){

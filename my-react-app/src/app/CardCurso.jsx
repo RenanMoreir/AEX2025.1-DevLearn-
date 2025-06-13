@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import './style/cardcurso.css'
-import imagem from "./assets/logo.png"
+import '../style/cardcurso.css'
+import imagem from "../assets/logo.png"
 
 function CardCurso(){
     return(

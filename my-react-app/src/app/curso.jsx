@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './style/curso.css'
+import '../style/curso.css'
 import Footer from './Footer.jsx'
 import NavBar from './NavBar.jsx'
 import Descricao from './Descricao.jsx'
