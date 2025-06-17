@@ -1,5 +1,5 @@
 import { StrictMode } from 'react'
-import '../style/descricao.css'
+import './descricao.css'
 
 function Descricao(){
     return(

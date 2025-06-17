@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import CodelabLogo from '../assets/logo.png'
-import InstagranLogo from '../assets/instagram.png'
-import YoutubeLogo from '../assets/youtube.png'
-import LinkedinLogo from '../assets/linkedin.png'
-import '../style/footer.css'
+import CodelabLogo from '../../assets/logo.png'
+import InstagranLogo from '../../assets/instagram.png'
+import YoutubeLogo from '../../assets/youtube.png'
+import LinkedinLogo from '../../assets/linkedin.png'
+import './footer.css'
 
 
 function Footer(){

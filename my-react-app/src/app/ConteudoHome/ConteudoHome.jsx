@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import '../style/App.css'
-import CardCurso from './CardCurso.jsx'
-import ImplementaCarrosel from './ImplementaCarrosel.jsx'
-import Banner from './Banner.jsx'
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './conteudohome.css'
+import './index.css'
+import Footer from '../Footer/Footer.jsx'
+import NavBar from '../NavBar/NavBar.jsx'
+import CardCurso from '../CardCurso/CardCurso.jsx'
+import ImplementaCarrosel from '../Carrosel/ImplementaCarrosel.jsx'
+import Banner from '../Banner/Banner.jsx'
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return(
+createRoot(document.getElementById('root')).render(
     <div>
+      <NavBar />
       <Banner />
       <div className='cursoPopular'>
         <div className='titulo'>
@@ -30,8 +32,6 @@ function App() {
             <a className='btn'>Começe agora</a>
         </div>
       </div>
+      <Footer/>
     </div>
   );
-}
-
-export default App;

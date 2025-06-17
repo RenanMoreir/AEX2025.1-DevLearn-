@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import  '../style/navbar.css'
-import CodelabLogo from '../assets/logo.png'
-import Busca from './pesquisa'
-import Pesquisa from './pesquisa';
+import  './navbar.css'
+import CodelabLogo from '../../assets/logo.png'
+
 
 
 function NavBar(){

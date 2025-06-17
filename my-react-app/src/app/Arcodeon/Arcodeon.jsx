@@ -11,15 +11,15 @@ function Arcodeon(props){
             <div id={props.numero} class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 <div className='conteudo'>
-                    <img src='./assets/play-btn.svg'></img>
+                    <img src='../src/assets/play-btn.svg'></img>
                     <h3>Introdução - Apresentação</h3>
                 </div>
                 <div className='conteudo'>
-                    <img src='./assets/card-checklist.svg'></img>
+                    <img src='../src/assets/card-checklist.svg'></img>
                     <h3>Teste seu conhecimento</h3>
                 </div>
                 <div className='conteudo'>
-                    <img src='./assets/file-earmark-text.svg'></img>
+                    <img src='../src/assets/file-earmark-text.svg'></img>
                     <h3>Links úteis e textos complementares</h3>
                 </div>
             </div>
