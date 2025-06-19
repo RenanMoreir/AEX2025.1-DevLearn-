@@ -20,7 +20,7 @@
 
 .card > img{
     border-radius: 1em;
-    width: 50vh;
+    width: 100%;
 }
 .conteudos{
     margin-top: 5vh;

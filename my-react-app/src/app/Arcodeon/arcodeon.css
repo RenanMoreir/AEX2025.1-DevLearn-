@@ -1,0 +1,26 @@
+
+.accordion{
+    --bs-accordion-btn-bg: #E41376;
+    --bs-accordion-active-bg: #101B37;
+    --bs-accordion-btn-color: #ffff;
+    --bs-accordion-active-color: #ffff;
+}
+
+.conteudoArc{
+    margin: 3%;
+    margin-top: 5%;
+}
+
+.conteudoArc img{
+    width: 5%;
+    margin-right: 5%;
+}
+
+.conteudoArc a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.conteudoArc p{
+    margin: 0px;
+}

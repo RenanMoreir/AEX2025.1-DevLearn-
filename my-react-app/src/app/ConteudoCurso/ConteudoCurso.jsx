@@ -12,18 +12,20 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <NavBar />
     <div className='conteudo'>
-        <Descricao className='Descricao' />
-        <Resumo className='Resumo' />
-        <BarraProgresso className='BarraProgresso' progresso='10%' />
-        <div className='accordion Arcodeon'>
-          <Arcodeon 
-            numero="1"
-            titulo="MODULO 1 - Variaveis"
-            //não sei direito como passaria o conteudo  
-          />
-          <Arcodeon numero={"2"}/>
-          <Arcodeon numero={"3"}/>
+        <Resumo/>
+        <div className='box'>
+          <Descricao/>
+          <BarraProgresso progresso='50%' />
+          <div className='accordion'>
+            <Arcodeon 
+              numero="1"
+              titulo="MODULO 1 - Variaveis"
+              //não sei direito como passaria o conteudo  
+            />
+            <Arcodeon numero={"2"}/>
+            <Arcodeon numero={"3"}/>
         </div>
+      </div>
     </div>
     <Footer />
   </StrictMode>,
