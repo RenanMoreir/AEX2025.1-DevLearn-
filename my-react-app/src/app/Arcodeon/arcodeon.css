@@ -1,9 +1,13 @@
 
 .accordion{
-    --bs-accordion-btn-bg: #E41376;
-    --bs-accordion-active-bg: #101B37;
+    --bs-accordion-btn-bg: #101B37;
+    --bs-accordion-active-bg: #E41376;
     --bs-accordion-btn-color: #ffff;
     --bs-accordion-active-color: #ffff;
+}
+
+.accordion-button::after{
+    filter: invert(100%);
 }
 
 .conteudoArc{

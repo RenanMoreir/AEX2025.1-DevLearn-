@@ -3,9 +3,9 @@ import './arcodeon.css'
 
 function Arcodeon(props){
     return(
-        <div className="accordion-item">
+        <div className="accordion-item" >
             <h2 className="accordion-header">
-            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={"#"+props.numero} aria-expanded="true" aria-controls={props.numero}>
+            <button className="accordion-button collapsed"  type="button" data-bs-toggle="collapse" data-bs-target={"#"+props.numero} aria-expanded="true" aria-controls={props.numero}>
                 {props.titulo}
             </button>
             </h2>
