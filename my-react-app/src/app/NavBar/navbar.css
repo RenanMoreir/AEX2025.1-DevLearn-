@@ -9,12 +9,20 @@
 
 }
 
-.NavBar h3{
-    color: white;
+.NavBar h3 {
     display: inline;
     font-size: 3vh;
     margin-top: 5%;
     margin-left: 15%;
+}
+
+.NavBar h3 a {
+  color: white;
+  text-decoration: none;
+}
+
+.NavBar h3 a:hover {
+  color: #ff51a2;
 }
 
 .NavBar.logo{

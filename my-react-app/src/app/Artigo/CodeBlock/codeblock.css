@@ -1,0 +1,17 @@
+.code-block {
+    background-color: #2C2C2C;
+    color: #f8f8f8;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    overflow-x: auto; 
+}
+
+.code-block pre {
+    margin: 0;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    white-space: pre-wrap; 
+    word-break: break-all; 
+}

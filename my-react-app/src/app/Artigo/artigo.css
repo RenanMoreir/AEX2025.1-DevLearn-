@@ -1,0 +1,49 @@
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    min-height: calc(100vh - 60px);
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 40px;
+    max-width: 800px;
+    margin-left: 280px; 
+    box-sizing: border-box;
+}
+
+.lesson-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #101B37;
+}
+
+.section-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+@media (max-width: 1024px) {
+    .main-content {
+        margin-left: 250px; 
+        padding: 30px;
+    }
+    .lesson-title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+        padding: 20px;
+        max-width: 100%;
+    }
+    .lesson-title {
+        font-size: 24px;
+    }
+}
