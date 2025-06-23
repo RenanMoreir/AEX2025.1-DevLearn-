@@ -24,7 +24,8 @@ function Arcodeon(props){
                     </a>
                 </div>
                 <div className='conteudoArc'>
-                    <a href='#'>
+                    {/* LInk para a página do artigo - para testes apenas */}
+                    <a href='/artigo.html'>
                         <img src='../src/assets/file-earmark-text.svg'></img>
                         <p>Links úteis e textos complementares</p>
                     </a>

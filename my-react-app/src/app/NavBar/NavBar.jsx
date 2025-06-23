@@ -26,7 +26,9 @@ function NavBar(){
             <div className='NavBar'>
                 <div className='logo navbar-brand'>
                     <img src={CodelabLogo} alt="Logo do codLab" className='d-inline-block align-text-top'/>
-                    <h3 className='d-inline-block align-text-top'>Dev.learn()</h3>
+                    <h3 className='d-inline-block align-text-top'>
+                        <a href='/index.html'>Dev.learn()</a>
+                    </h3>
                 </div>
                 {/*futura barra de pesquisa <Pesquisa></Pesquisa>*/}
                 {/*<a className='login btn' href='/Login.html'>Login</a>*/}
