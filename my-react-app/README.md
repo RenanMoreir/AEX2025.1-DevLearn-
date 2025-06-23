@@ -31,4 +31,4 @@ Aqui constam as instruções para fazer parte da criação deste site:
 
 
 > [!WARNING]
-> Lembre-se de realizar um ```git fetch``` sempre que for começar algo, assim não haverá conflito na hora do ```git push```.
+> Lembre-se de realizar um ```git pull``` sempre que for começar algo, assim não haverá conflito na hora do ```git push```.
