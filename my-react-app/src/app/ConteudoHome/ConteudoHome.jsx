@@ -32,6 +32,7 @@ createRoot(document.getElementById('root')).render(
             <a className='btn'>Começe agora</a>
         </div>
       </div>
+
       <Footer/>
     </div>
   );
